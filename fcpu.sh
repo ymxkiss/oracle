@@ -47,7 +47,7 @@ if [ -f /root/Fuck_OCPU.sh ]; then
   else
 
   echo "no such file!-开始下载"
-cd /root && wget -qO fcpu.sh https://raw.githubusercontent.com/ymxkiss/oracle/main/fcpu.sh && chmod +X fcpu.sh && bash fcpu.sh ${Cores}
+cd /root && wget -qO ccpu.sh https://raw.githubusercontent.com/ymxkiss/oracle/main/ccpu.sh && chmod +X ccpu.sh && bash ccpu.sh ${Cores}
   
 fi
 
